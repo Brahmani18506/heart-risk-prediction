@@ -35,7 +35,7 @@ function App() {
 
     try {
       const response = await fetch(
-        "https://heart-risk-backend-i3dh.onrender.com",
+        "https://heart-risk-backend-i3dh.onrender.com/predict",
         {
           method: "POST",
           headers: {
